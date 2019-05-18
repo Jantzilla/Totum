@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/action_all"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="All"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_battery"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Battery"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_location"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Location"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_time"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Time"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_communication"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Communication"
+            app:showAsAction="ifRoom"/>
+</menu>
